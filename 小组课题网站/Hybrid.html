@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hybrid Grains: Adaptive Coupling of Discrete and Continuum Simulations of Granular Media</title><
+    <link rel="stylesheet" type="text/css" href="CSS/text.css">
+</head>
+<body>
+     <div id="body">
+         <div class="center">
+             <h1>Hybrid Grains: Adaptive Coupling of Discrete and Continuum Simulations of Granular Media</h1>
+             <span class="author"><a href="http://mns.k.u-tokyo.ac.jp/~yonghao/">Yonghao Yue</a><sup>1,2,*</sup></span>
+             <span class="author"><a href="https://breannansmith.com">Breannan Smith</a><sup>2,*</sup></span>
+             <span class="author"><a href="http://www.cs.columbia.edu/cg/">Peter Yichen Chen</a><sup>2,*</sup></span>
+             <br>
+             <span class="author"><a href="http://web.mit.edu/kkamrin/www/people.html">Maytee Chantharayukhonthorn</a><sup>3,*</sup></span>
+             <span class="author"><a href="http://web.mit.edu/kkamrin/www/index.html">Ken Kamrin</a><sup>3,+</sup></span>
+             <span class="author"><a href="http://www.cs.columbia.edu/~eitan/">Eitan Grinspun</a><sup>2,+</sup></span>
+             <br><br>
+             <span class="affiliation"><sup>1</sup><a href="https://www.u-tokyo.ac.jp">The University of Tokyo</a></span>
+             <span class="affiliation"><sup>2</sup><a href="https://www.columbia.edu">Columbia University</a></span>
+             <span class="affiliation"><sup>3</sup><a href="http://www.mit.edu">Massachusetts Institute of Technology</a></span>
+             <br>
+             <span class="affiliation"><sup>*</sup>Co-first authors: authors contributed equally</span>
+             <span class="affiliation"><sup>+</sup>Corresponding authors</span>
+             <br><br>
+             
+             <img alt="图片1" src="">
+             <img alt="图片2" src="">
+             <img alt="图片3" src="">
+             <img alt="图片4" src="">
+
+
+
+         </div>
+
+         <div id="info" class="section">
+             <br>
+             <h3 class="heading">Abstract</h3>
+             <p class="abstract">
+                 We propose a technique to simulate granular materials that exploits the dual strengths of discrete and continuum
+                 treatments. Discrete element simulations provide unmatched levels of detail and generality, but prove excessively costly
+                 when applied to large scale systems. Continuum approaches are computationally tractable, but limited in applicability due to built-in modeling assumptions; e.g., models suitable for granular flows typically fail to capture clogging, bouncing and ballistic motion. In our hybrid approach, an oracle dynamically partitions the domain into continuum regions where safe, and discrete regions where necessary. The domains overlap along transition zones, where a Lagrangian dynamics mass-splitting coupling principle enforces agreement between the two simulation states. Enrichment and homogenization operations allow the partitions to evolve over time. This approach accurately and efficiently simulates scenarios that previously required an entirely discrete treatment.
+             </p>
+         </div>
+             <div id="files" class="section" align="center">
+             <h3 class="heading">Files</h3>
+             <dl class="filelist">
+             <dt>Paper: </dt><dd> <span class="file">[<a href="./files/paper.pdf">PDF</a>]</span>
+             </dd>
+             <dt>Video: </dt><dd> <span class="file">[<a href="./files/video.mp4">MP4</a>] [<a href="https://youtu.be/Z86Udk2JXeU">YouTube</a>]</span>
+             </dd>
+             <dt>Supplemental material:</dt><dd> <span class="file">[<a href="./files/speedup_supplement.pdf">Speedup Supplement PDF</a>] [<a href="./files/mpm_supplement.pdf">MPM Supplement PDF</a>]</span>
+	         </dd></dl>
+         </div>
+
+         <div class="bib">
+             <h3 class="heading">BibTeX</h3> 
+             <pre>@article{HG:2018,
+             author = {Yue, Yonghao and Smith, Breannan and Chen, Peter Yichen and Chantharayukhonthorn, Maytee and Kamrin, Ken and Grinspun, Eitan},
+             title = {Hybrid Grains: Adaptive Coupling of Discrete and Continuum Simulations of Granular Media},
+             journal = {ACM Trans. Graph.},
+             volume = {37},
+             number = {6},
+             month = nov,
+             year = {2018},
+             pages = {283:1--283:19},
+             articleno = {283},
+             numpages = {19},
+             }
+             </pre>
+         </div>
+
+         <div class="footer">
+             Updated: September 17, 2018
+         </div>
+     </div>
+
+</body>
+</html>
